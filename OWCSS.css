@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* { 
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Orbitron";
+ }
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-image {
+	height: 500px;
+	background-image: url(https://wallpaperspal.com/wp-content/uploads/Overwatch-2015-Game-Logo-Wallpaper.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+.intro {
+	height: 120px;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	background-color: rgb(41, 46, 55);
+}
+
+.intro p {
+	font-size: 18px;
+	font-style: italic;
+}
+
+.hero-chart {
+	height: 1000px;
+	background-color: black;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	padding: 10px;
+	padding-top: 10px;
+	font-family: 'Roboto';
+}
+
+.floated_img
+{
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    width: 20%;
+	height: 20%;
+	/* outline: 3px solid; */ 
+	border: white solid;
+	border-width: 2px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+}
+
+.floated_img:nth-child(2), .floated_img:nth-child(3), .floated_img:nth-child(4), .floated_img:nth-child(7), .floated_img:nth-child(8), .floated_img:nth-child(9), .floated_img:nth-child(12), .floated_img:nth-child(13), .floated_img:nth-child(14) {
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 2px;
+} 
+
+.floated_img:nth-child(1), .floated_img:nth-child(6), .floated_img:nth-child(11), .floated_img:nth-child(16) {
+	border-right-width: 1px;
+}   
+
+.floated_img:nth-child(5), .floated_img:nth-child(10), .floated_img:nth-child(15), .floated_img:nth-child(20) {
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+}   
+
+.floated_img:nth-child(20), .floated_img:nth-child(21) {
+	border-bottom-width: 2px;
+}
+
+.floated_img:nth-child(21) {
+	border-top-width: 1px;
+	width: 20.1%;
+}
+
+.floated_img:nth-child(1), .floated_img:nth-child(5) {
+	border-top-width: 2px;
+}
+
+.floated_img:nth-child(7), .floated_img:nth-child(8), .floated_img:nth-child(9), .floated_img:nth-child(12), .floated_img:nth-child(13), .floated_img:nth-child(14) {
+	border-top-width: 1px;
+}
+
+.floated_img:nth-child(17), .floated_img:nth-child(18), .floated_img:nth-child(19) {
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+	border-bottom-width: 2px;
+}
+
+.floated_img img {
+	padding-top: 15px;
+}
+
+.floated_img h3 {
+	font-size: 18px;
+}
+
+.floated_img p {
+	font-size: 14px;
+	padding: 10px;
+}
+
+.counter {
+	display: none;
+}
+
+footer {
+  color: white;
+  display: block;
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 150apx;
+  text-align: center;
+}
+
+.social {
+	font-size: 20px;
+}
