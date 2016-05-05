@@ -5,8 +5,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Orbitron";
  }
+
+body {
+	font-family: "Orbitron";
+}
 
 ul {
   margin: 0;
@@ -34,7 +37,7 @@ ul li a {
 
 .intro {
 	height: 120px;
-	font-size: 18px;
+	font-size: 1em;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	color: white;
@@ -42,16 +45,16 @@ ul li a {
 }
 
 .intro p {
-	font-size: 18px;
+	font-size: 1em;
 	font-style: italic;
 }
-
+ 
 .hero-chart {
 	height: 1000px;
 	background-color: black;
 	padding: 20px;
 	display: flex;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 }
 
 h1 {
@@ -75,15 +78,13 @@ p {
 
 .floated_img
 {
-    	text-align: center;
-    	padding-top: 10px;
-    	width: 20%;
-    	height: 20%;
-    	/* outline: 3px solid; */ 
-	border: white solid;
-	border-width: 2px;
-	border-bottom-width: 1px;
-	border-top-width: 1px;
+    text-align: center;
+    padding-top: 10px;
+	flex: 0 0 20%;
+}
+
+.last {
+	flex: 0 20%;
 }
 
 .floated_img img {
@@ -91,11 +92,11 @@ p {
 }
 
 .floated_img h3 {
-	font-size: 18px;
+	font-size: 1em;
 }
 
 .floated_img p {
-	font-size: 14px;
+	font-size: 1em;
 	padding: 10px;
 }
 
